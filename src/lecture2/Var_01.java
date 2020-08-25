@@ -1,4 +1,4 @@
-package lecture1;
+package lecture2;
 
 /*
  * 변수, varriable, value

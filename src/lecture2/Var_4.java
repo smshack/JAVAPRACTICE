@@ -1,4 +1,4 @@
-package lecture1;
+package lecture2;
 
 public class Var_4 {
 	public static void main(String[] args) {
