@@ -19,8 +19,8 @@ public class MainClass2 {
 		cm.makeKongNaMool();
 		cm.makeSoybean();
 		
+		System.out.println();
+		
 		Pmenu pm2 = new Cmenu();
-		
-		
 	}
 }
