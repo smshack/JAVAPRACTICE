@@ -1,30 +1,27 @@
 package lecture20;
 
+import lecture20.InterfaceRobot.FlyNo;
+import lecture20.InterfaceRobot.FlyYes;
+import lecture20.InterfaceRobot.KnifeLazer;
+import lecture20.InterfaceRobot.MisailYes;
+
 public class SuperRobot extends Robot{
 	
 
 	
 	public SuperRobot() {
 		// TODO Auto-generated constructor stub
+		fly = new FlyYes();
+		misail = new MisailYes();
+		knife = new KnifeLazer();
 	}
 
 	@Override
-	public void actionFly() {
+	public void shape() {
 		// TODO Auto-generated method stub
-		System.out.println("날수 있습니다");
+		System.out.println("SuperRobot 로봇입니다");
 	}
 
-	@Override
-	public void actionMisail() {
-		// TODO Auto-generated method stub
-		System.out.println("걸을 수 있습니다");
-	}
 
-	@Override
-	public void actionKnife() {
-		// TODO Auto-generated method stub
-		System.out.println("검이 없습니다");
-		
-	}
 
 }

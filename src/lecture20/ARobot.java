@@ -20,4 +20,10 @@ public class ARobot extends Robot {
 
 	}
 
+	@Override
+	public void shape() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

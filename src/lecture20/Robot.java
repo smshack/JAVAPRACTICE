@@ -37,13 +37,21 @@ public abstract class Robot {
 		System.out.println("달릴수 있습니다");
 	}
 	
-	public void shape() {
+	public abstract void shape();
+	
+	
+	public void actionKnife() {
 		// TODO Auto-generated method stub
-		System.out.println("로봇입니다 머리, 몸통, 팔, 다리가 있습니다");
+		this.knife.knife();
 	}
 	
-	//각 클래스_객체 에 따로 정의 되야 되는 부분은 추상 메서드로 만들어 줌
-	public abstract void actionFly(); 
-	public abstract void actionMisail();
-	public abstract void actionKnife();
+	public void actionMisail() {
+		// TODO Auto-generated method stub
+		this.misail.misail();
+	}
+	
+	public void actionFly() {
+		this.fly.fly();
+	}
+
 }
