@@ -1,7 +1,7 @@
 package lecture17.Ex2;
 
 public class APhone implements IFunction{
-
+	//이 폰의 인터페이스에서 정해준 기능을 정의해줘
 	@Override
 	public void callSenderReceive() {
 		// TODO Auto-generated method stub
