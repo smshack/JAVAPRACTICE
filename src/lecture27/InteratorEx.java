@@ -1,4 +1,4 @@
-package lectur27;
+package lecture27;
 
 import java.util.ArrayList;
 import java.util.HashMap;
