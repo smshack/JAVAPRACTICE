@@ -133,8 +133,6 @@ private static ArrayList<Ivoices> createData() throws ParseException {
 	
 	
 	
-	
-	
 	return a;
 	
 	
