@@ -17,7 +17,7 @@ public class URLConEx {
 		System.out.println("웹 주소를 입력 하세요.");
 		Scanner scanner = new Scanner(System.in);
 		String address = scanner.next();
-		
+		System.out.println(address);
 		try {
 			URL url = new URL(address);
 			URLConnection con = url.openConnection();
@@ -26,7 +26,9 @@ public class URLConEx {
 			
 			while ((code = webData.readLine()) != null) {
 				fw.write(code);
+				System.out.println(code);
 			}
+			
 			System.out.println("The End");
 			
 			fw.close();
